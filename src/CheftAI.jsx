@@ -5,7 +5,7 @@ export default function ChefAIApp({ recipe }) {
     <div className="app-container">
       {!recipe && (
         <div className="start-prompt">
-          <img src="./src/assets/gem.png" alt="Chef AI Illustration" />
+          <img src="/Genie-Chef-AI/gem.png" alt="Chef AI Illustration" />
           <div className="instructions-section">
             <h3 className="instructions-heading">How to Use Genie Chef AI:</h3>
             <ol className="instructions-list">
