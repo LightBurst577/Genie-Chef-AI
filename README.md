@@ -1,6 +1,11 @@
+# 🌐 Genie Chef AI Site:
+
+https://lightburst577.github.io/Genie-Chef-AI/
+
 # Genie Chef AI 🧞‍♂️🍳
 
 Genie Chef AI is a smart, interactive web application that helps users discover recipes based on the ingredients they have at home. Simply input your available ingredients, and let the AI genie conjure up the perfect culinary creation.
+
 
 ## 🚀 Features
 
