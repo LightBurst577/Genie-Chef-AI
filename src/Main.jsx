@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react"; // 1. Added useRef and useEffect
+import { useState, useRef, useEffect } from "react";
 import { getRecipeFromMistral } from "./ai";
 import IngredientsList from "./IngredientsList";
 import AIRecipe from "./AIRecipe";
@@ -53,7 +53,7 @@ export default function Main() {
           onChange={(e) => setInputValue(e.target.value)}
           maxLength={20}
         />
-        <button type="submit">Add ingredient</button>
+        <button type="submit"></button>
       </form>
       {ingredients.length > 0 && (
         <IngredientsList
