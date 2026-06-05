@@ -1,5 +1,7 @@
 # 🌐 Genie Chef AI Site:
 
+https://lightsite.dev/genieai
+
 https://lightburst577.github.io/Genie-Chef-AI/
 
 # Genie Chef AI 🧞‍♂️🍳
