@@ -16,7 +16,8 @@ Genie Chef AI is a smart, interactive web application that helps users discover 
 - **Modern UI/UX:** Built with a clean, intuitive interface featuring responsive CSS styling.
 - **It supports phone I think** Built with a clean, intuitive interface featuring responsive CSS styling.
 
-## 📺 Video demo (COMING SOON!)
+## 📺 Video demo
+https://github.com/user-attachments/assets/cf623c93-d9a9-4d13-9482-f173ebe11ef8
 
 ## 📖 How to Use
 
