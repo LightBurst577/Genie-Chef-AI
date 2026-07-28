@@ -14,6 +14,8 @@ const MODELS = [
   "google/gemma-2-9b-it:free", // Backup 1
   "meta-llama/llama-3-8b-instruct:free", // Backup 2
   "mistralai/mistral-7b-instruct:free", // Backup 3
+  "inclusionai/ling-3.0-flash:free", // Backup 4
+  "poolside/laguna-s-2.1:free", // Backup 5
 ];
 
 export async function getRecipeFromMistral(ingredientsArr) {

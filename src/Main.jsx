@@ -9,18 +9,28 @@ export default function Main() {
   const [recipe, setRecipe] = useState("");
   const [inputValue, setInputValue] = useState("");
   const [loading, setLoading] = useState(false);
-
   const bottomRef = useRef(null);
+  const shouldScrollToBottomRef = useRef(false);
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [ingredients]);
+    if (shouldScrollToBottomRef.current) {
+      bottomRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
+      shouldScrollToBottomRef.current = false;
+    }
+  }, [ingredients, recipe]);
+
+  useEffect(() => {
+    if (recipe) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, [recipe]);
 
   function addIngredient(e) {
     e.preventDefault();
     if (inputValue.trim()) {
       setIngredients([...ingredients, inputValue]);
       setInputValue("");
+      shouldScrollToBottomRef.current = true;
     }
   }
 
